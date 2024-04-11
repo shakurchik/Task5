@@ -6,6 +6,4 @@ public class StaticData
 {
     public static List<Animal> Animals { get; set; }
     
-        
-    
 }

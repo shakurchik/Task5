@@ -27,8 +27,7 @@ public static class AnimalEndPoint
         app.MapPost("/animals-minimal.api", (Animal animal) =>
         {
             return Results.Created(" ",animal);
-
-
+            
         });
         
     }
